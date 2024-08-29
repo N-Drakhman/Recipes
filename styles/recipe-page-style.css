@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+/* Header */
+.nav-bar {
+  width: 100%;
+  height: 10vh;
+  box-shadow: 0 0 8px 0 rgb(183, 183, 183);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.nav-bar a {
+  font-size: 32px;
+  font-weight: 600;
+  color: orange;
+  text-decoration: none;
+}
+
+/* Main */
+
+.main {
+  width: 100%;
+}
+
+.feed {
+  width: 40vw;
+  margin: 50px 350px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  width: 40vw;
+  word-spacing: -1px;
+}
+
+.description span {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.description span a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* .image-back{
+  height: 570px;
+  background-color: rgb(227, 227, 227);
+  width: 600px;
+  height: 500;
+  padding: 0 90px;
+} */
+
+img {
+  width: 100%;
+  margin: 50px 0;
+  max-height: 570px;
+  display: block;
+ object-fit: cover;
+border-radius: 1vh;
+}
+
+/* main General info */
+
+.general-info {
+  width: 100%;
+  padding: 20px;
+  min-height: 200px;
+  border: 0.5px solid gray;
+  border-radius: 1vh;
+  border-top: 10px solid orange;
+  margin-bottom: 20px;
+}
+
+.colums {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 32px;
+  border-bottom: 1.7px solid rgb(210, 210, 210);
+}
+
+.colums .colum {
+  width: 7vw;
+  height: 8vh;
+}
+
+.colum :first-child {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/* main Lists */
+
+.section-title,
+.comments-list-title {
+  border-bottom: 5px solid orange;
+  height: 50px;
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+ul li::marker{
+  color: orange
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  margin: 50px 0;
+
+}
+
+li {
+  margin-bottom: 15px;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+ol li {
+  margin-bottom: 25px;
+}
+
+.nutrition-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0 150px 0;
+}  
+
+/* Footer */
+
+.footer {
+  width: 100;
+  height: 30vh;
+  background-color: #f3f3f3;
+}
+
+.about {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  width: 90vw;
+  height: 80px;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 0.5px solid #d8d8d8;
+}
+
