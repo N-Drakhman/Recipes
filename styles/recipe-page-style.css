@@ -100,7 +100,10 @@ border-radius: 1vh;
   grid-template-rows: 1fr 1fr;
   gap: 32px;
   border-bottom: 1.7px solid rgb(210, 210, 210);
+  /* padding-bottom: 15px; */
 }
+
+
 
 .colums .colum {
   width: 7vw;
@@ -111,6 +114,8 @@ border-radius: 1vh;
   font-weight: 600;
   margin-bottom: 5px;
 }
+
+
 
 /* main Lists */
 
